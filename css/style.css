@@ -430,63 +430,12 @@ footer {
     background-color: transparent;
 }
 
-/* Extra Small devices  */
-/*@media (max-width: 480px) {
-    .more-features-div-description, .more-features-div-heading
-    {
-        width: 80%;
-    }
-        .header-div
-    {
-        height: 350px;
-    }
-
-    .slide-text {
-        color: #403838;
-        margin-top: 35px;
-    }
-    .slide-text p {
-        font-size: 12px;
-    }
-
-    .slide-text h1 {
-        line-height: 25px;
-        font-size: 25px;
-    }
-<<<<<<< Updated upstream
-}
-
-/* Extra Small devices  */
-@media (max-width: 767px) {
-=======
-}*/
-
-/* Extra Small devices  */
-/*@media (max-width: 767px) {
->>>>>>> Stashed changes
-    .slide-text h1
-     {
-        line-height: 30px;
-        font-size: 30px;
-     }
-
-     .slide-text p {
-        font-size: 13px;
-    }
-<<<<<<< Updated upstream
-}
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-=======
-}*/
 
 /* Small devices (tablets, 768px and up) */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 500px) {
 /*@media (max-width: 768px) {*/
->>>>>>> Stashed changes
      .pricing-box
      {
         margin-bottom: 20px;
@@ -499,9 +448,6 @@ and (max-device-width : 500px) {
      }
 
      .slide-text p {
-<<<<<<< Updated upstream
-        font-size: 15px;
-=======
         font-size: 36px;
     }
 
