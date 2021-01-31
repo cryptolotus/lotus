@@ -1,6 +1,6 @@
 /*
-	Awesome Responsive Template
-	templatestock.co
+    Awesome Responsive Template
+    templatestock.co
 */
 
 
@@ -8,8 +8,8 @@
 
 body
 {
-	font-family: 'Roboto' !important;
-	overflow-x: hidden;
+    font-family: 'Roboto' !important;
+    overflow-x: hidden;
 }
 
 .main_heading {
@@ -18,7 +18,7 @@ body
 
 .main_heading h1
 {
-	font-size: 45px;
+    font-size: 45px;
     font-weight: 300;
     text-align: center;
     line-height: 45px;
@@ -37,8 +37,8 @@ body
 
 .header-div
 {
-	height: 550px;
-    background-color: #65cd00;
+    height: 800px;
+    background-image: url('../assets/image/bg/mountain-lotus.jpg');
 }
 
 .logo-div a
@@ -59,13 +59,13 @@ body
 
 .top-right-menu-ul
 {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .slide-text
 {
-	color: #fff;
-	margin-top: 80px;
+    color: #fff;
+    margin-top: 80px;
 }
 
 .slide-text h1
@@ -77,14 +77,14 @@ body
 
 .slide-text p
 {
-	font-size: 17px;
+    font-size: 17px;
 }
 
 
 /* Features CSS */
 .features-div
 {
-	text-align: center;
+    text-align: center;
     -webkit-transition: all .15s linear;
     -moz-transition: all .15s linear;
     -ms-transition: all .15s linear;
@@ -94,13 +94,13 @@ body
 
 .features-div:hover
 {
-	margin-top: -10px;
+    margin-top: -10px;
 }
 
 
 .features-div i
 {
-	font-size: 35px;
+    font-size: 35px;
     font-weight: 300;
     color: #65CD00;
 }
@@ -122,14 +122,14 @@ body
 .more-features-div
 {
     margin-top: 40px;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .more-feature-div
 {
     background: #f8f8f8;
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;	
+    border-bottom: 1px solid #ddd;  
     margin: 70px 0px;
     margin-bottom: 0px;      
     padding: 50px 0px;  
@@ -165,7 +165,7 @@ body
 
 .more-features-div-description
 {
-	float: right;
+    float: right;
     width: 86%;
     font-weight: 300;
 }
@@ -189,7 +189,7 @@ body
 
 .services-box h4
 {
-	font-size: 18px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -225,7 +225,7 @@ body
 
 .pricing-box-price strong
 {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .pricing-box h3 {
@@ -303,14 +303,14 @@ body
 /* Call Action */
 .call-action-bg
 {
-	background-image: url(../images/dashboard-img.jpg);
-	margin:60px 0px; 
+    background-image: url(../images/dashboard-img.jpg);
+    margin:60px 0px; 
     text-align: center;
     padding-bottom: 50px;
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
-	background-size: cover;    
+    background-size: cover;    
 }
 
 .call-action-color {
@@ -326,12 +326,12 @@ body
 
 .call-action-color .main_heading h1
 {
-	color: #fff;
+    color: #fff;
 }
 
 .call-action-color .underline
 {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 /* About */
@@ -372,13 +372,13 @@ body
 
 .about-us-box h3
 {
-	font-size: 24px;
+    font-size: 24px;
     font-weight: 400;
 }
 
 .about-us-box p
 {
-	font-size: 16px;
+    font-size: 16px;
     text-align: center;
     font-weight: 300;
     line-height: 25px;
@@ -413,7 +413,7 @@ footer {
 
 .navbar-nav li a
 {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -430,58 +430,58 @@ footer {
 
 /* Extra Small devices  */
 @media (max-width: 480px) {
-	.more-features-div-description, .more-features-div-heading
-	{
-		width: 80%;
-	}
-		.header-div
-	{
-		height: 350px;
-	}
+    .more-features-div-description, .more-features-div-heading
+    {
+        width: 80%;
+    }
+        .header-div
+    {
+        height: 350px;
+    }
 
-	.slide-text {
-	    color: #fff;
-    	margin-top: 35px;
-	}
-	.slide-text p {
-    	font-size: 12px;
-	}
+    .slide-text {
+        color: #fff;
+        margin-top: 35px;
+    }
+    .slide-text p {
+        font-size: 12px;
+    }
 
-	.slide-text h1 {
-	    line-height: 25px;
-    	font-size: 25px;
-	}
+    .slide-text h1 {
+        line-height: 25px;
+        font-size: 25px;
+    }
 }
 
 /* Extra Small devices  */
 @media (max-width: 767px) {
-	.slide-text h1
-	 {
-	 	line-height: 30px;
-    	font-size: 30px;
-	 }
+    .slide-text h1
+     {
+        line-height: 30px;
+        font-size: 30px;
+     }
 
-	 .slide-text p {
-    	font-size: 13px;
-	}
+     .slide-text p {
+        font-size: 13px;
+    }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	 .pricing-box
-	 {
-	 	margin-bottom: 20px;
-	 }
+     .pricing-box
+     {
+        margin-bottom: 20px;
+     }
 
-	 .slide-text h1
-	 {
-	 	line-height: 45px;
-    	font-size: 45px;
-	 }
+     .slide-text h1
+     {
+        line-height: 45px;
+        font-size: 45px;
+     }
 
-	 .slide-text p {
-    	font-size: 15px;
-	}
+     .slide-text p {
+        font-size: 15px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -490,12 +490,12 @@ footer {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	/* Typography CSS */
+    /* Typography CSS */
 
 body
 {
-	font-family: 'Roboto' !important;
-	overflow-x: hidden;
+    font-family: 'Roboto' !important;
+    overflow-x: hidden;
 }
 
 .main_heading {
@@ -504,7 +504,7 @@ body
 
 .main_heading h1
 {
-	font-size: 45px;
+    font-size: 45px;
     font-weight: 300;
     text-align: center;
     line-height: 45px;
@@ -520,12 +520,6 @@ body
 }
 
 /* Header CSS */
-
-.header-div
-{
-	height: 550px;
-    background-color: #65cd00;
-}
 
 .logo-div a
 {
@@ -545,13 +539,13 @@ body
 
 .top-right-menu-ul
 {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .slide-text
 {
-	color: #fff;
-	margin-top: 80px;
+    color: #fff;
+    margin-top: 80px;
 }
 
 .slide-text h1
@@ -563,14 +557,14 @@ body
 
 .slide-text p
 {
-	font-size: 17px;
+    font-size: 17px;
 }
 
 
 /* Features CSS */
 .features-div
 {
-	text-align: center;
+    text-align: center;
     -webkit-transition: all .15s linear;
     -moz-transition: all .15s linear;
     -ms-transition: all .15s linear;
@@ -580,13 +574,13 @@ body
 
 .features-div:hover
 {
-	margin-top: -10px;
+    margin-top: -10px;
 }
 
 
 .features-div i
 {
-	font-size: 35px;
+    font-size: 35px;
     font-weight: 300;
     color: #65CD00;
 }
@@ -608,14 +602,14 @@ body
 .more-features-div
 {
     margin-top: 40px;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .more-feature-div
 {
     background: #f8f8f8;
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;	
+    border-bottom: 1px solid #ddd;  
     margin: 70px 0px;
     margin-bottom: 0px;      
     padding: 50px 0px;  
@@ -646,7 +640,7 @@ body
 
 .more-features-div-description
 {
-	float: right;
+    float: right;
     width: 86%;
     font-weight: 300;
 }
@@ -670,7 +664,7 @@ body
 
 .services-box h4
 {
-	font-size: 18px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -705,7 +699,7 @@ body
 
 .pricing-box-price strong
 {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .pricing-box h3 {
@@ -783,14 +777,14 @@ body
 /* Call Action */
 .call-action-bg
 {
-	background-image: url(../images/dashboard-img.jpg);
-	margin:60px 0px; 
+    background-image: url(../images/dashboard-img.jpg);
+    margin:60px 0px; 
     text-align: center;
     padding-bottom: 50px;
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
-	background-size: cover;    
+    background-size: cover;    
 }
 
 .call-action-color {
@@ -806,12 +800,12 @@ body
 
 .call-action-color .main_heading h1
 {
-	color: #fff;
+    color: #fff;
 }
 
 .call-action-color .underline
 {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 /* About */
@@ -852,13 +846,13 @@ body
 
 .about-us-box h3
 {
-	font-size: 24px;
+    font-size: 24px;
     font-weight: 400;
 }
 
 .about-us-box p
 {
-	font-size: 16px;
+    font-size: 16px;
     text-align: center;
     font-weight: 300;
     line-height: 25px;
@@ -893,7 +887,7 @@ footer {
 
 .navbar-nav li a
 {
-	color: #fff !important;
+    color: #fff !important;
 }
 
 .navbar-default .navbar-toggle {
