@@ -441,7 +441,7 @@ footer {
         height: 350px;
     }
 
-    .slide-text {
+/*    .slide-text {
         color: #403838;
         margin-top: 35px;
     }
@@ -452,12 +452,12 @@ footer {
     .slide-text h1 {
         line-height: 25px;
         font-size: 25px;
-    }
+    }*/
 }
 
 /* Extra Small devices  */
 @media (max-width: 767px) {
-    .slide-text h1
+/*    .slide-text h1
      {
         line-height: 30px;
         font-size: 30px;
@@ -465,12 +465,12 @@ footer {
 
      .slide-text p {
         font-size: 13px;
-    }
+    }*/
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-     .pricing-box
+/*     .pricing-box
      {
         margin-bottom: 20px;
      }
@@ -483,7 +483,7 @@ footer {
 
      .slide-text p {
         font-size: 15px;
-    }
+    }*/
 }
 
 /* Medium devices (desktops, 992px and up) */
