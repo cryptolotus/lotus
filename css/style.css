@@ -37,7 +37,7 @@ body
 
 .header-div
 {
-    height: 800px;
+    height: 650px;
     background-image: url('../assets/image/bg/mountain-lotus.jpg');
 }
 
@@ -64,7 +64,7 @@ body
 
 .slide-text
 {
-    color: #fff;
+    color: #403838;
     margin-top: 80px;
 }
 
@@ -79,6 +79,8 @@ body
 {
     font-size: 17px;
 }
+
+.link-so { color: #FFFFFF; }
 
 
 /* Features CSS */
@@ -440,7 +442,7 @@ footer {
     }
 
     .slide-text {
-        color: #fff;
+        color: #403838;
         margin-top: 35px;
     }
     .slide-text p {
@@ -544,7 +546,7 @@ body
 
 .slide-text
 {
-    color: #fff;
+    color: #403838;
     margin-top: 80px;
 }
 
