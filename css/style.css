@@ -431,7 +431,7 @@ footer {
 }
 
 /* Extra Small devices  */
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .more-features-div-description, .more-features-div-heading
     {
         width: 80%;
@@ -453,10 +453,17 @@ footer {
         line-height: 25px;
         font-size: 25px;
     }
+<<<<<<< Updated upstream
 }
 
 /* Extra Small devices  */
 @media (max-width: 767px) {
+=======
+}*/
+
+/* Extra Small devices  */
+/*@media (max-width: 767px) {
+>>>>>>> Stashed changes
     .slide-text h1
      {
         line-height: 30px;
@@ -466,10 +473,20 @@ footer {
      .slide-text p {
         font-size: 13px;
     }
+<<<<<<< Updated upstream
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+=======
+}*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 500px) {
+/*@media (max-width: 768px) {*/
+>>>>>>> Stashed changes
      .pricing-box
      {
         margin-bottom: 20px;
@@ -482,7 +499,102 @@ footer {
      }
 
      .slide-text p {
+<<<<<<< Updated upstream
         font-size: 15px;
+=======
+        font-size: 36px;
+    }
+
+    .features-div p
+    {
+        color: #636363;
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .features-div
+    {
+        text-align: center;
+        -webkit-transition: all .15s linear;
+        -moz-transition: all .15s linear;
+        -ms-transition: all .15s linear;
+        -o-transition: all .15s linear;
+        transition: all .15s linear;
+    }
+    
+    .features-div:hover
+    {
+        margin-top: -10px;
+    }
+    
+    .features-div i
+    {
+        font-size: 90px;
+        font-weight: 300;
+        color: #65CD00;
+    }
+    
+    .features-div h4
+    {
+        color: #393939;
+        font-weight: 400;
+        font-size: 36px;
+    }
+    
+    .features-div p
+    {
+        color: #636363;
+        font-size: 36px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+    
+    .more-features-div
+    {
+        margin-top: 40px;
+        overflow: hidden;
+    }
+    
+    .more-feature-div
+    {
+        background: #f8f8f8;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;  
+        margin: 70px 0px;
+        margin-bottom: 0px;      
+        padding: 50px 0px;  
+    }
+    
+    
+    .more-features-div-icon {
+        float: left;
+        width: 60px;
+        height: 60px;
+        padding-top: 6px;
+        background: #65CD00;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        font-size: 30px;
+        color: #fff;
+        line-height: 45px;
+        text-align: center;
+    }
+    
+    .more-features-div-heading {
+        float: right;
+        width: 86%;
+        margin-top: 0;
+        font-weight: 400;    
+    }
+    
+    .more-features-div-description
+    {
+        float: right;
+        width: 86%;
+        font-weight: 300;
+>>>>>>> Stashed changes
     }
 }
 
