@@ -33,6 +33,80 @@ body
     background-color: #65CD00;
 }
 
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fa578d;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.copy-button {
+    background-color: #51a500; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.copy-button:hover{background-color:#2d5c00;}
+
+
+
+
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 43%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
 /* Header CSS */
 
 .header-div
@@ -435,7 +509,16 @@ footer {
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 500px) {
-/*@media (max-width: 768px) {*/
+
+    .copy-button {
+        font-size: 36px;
+    }
+    .pool-address-text {
+        font-size: 26px;
+    }
+    #snackbar {
+        font-size: 26px;
+    }
      .pricing-box
      {
         margin-bottom: 20px;
