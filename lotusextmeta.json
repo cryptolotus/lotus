@@ -1,20 +1,29 @@
 {
-    "info": {
-        "location": "Bangkok, Thailand",
-        "social": {
-            "twitter_handle": "lotus_ada",
-            "telegram_handle": "lotus_ada",
-            "facebook_handle": "",
-            "youtube_handle": "",
-            "twitch_handle": "",
-            "discord_handle": "",
-            "github_handle": ""
-        },
-        "about": {
-            "server": "One BP and two relays"
-        }      
+  "info": {
+    "url_png_icon_64x64": "https://cryptolotus.github.io/lotus/assets/image/logo/icons/icon-64x64.png",
+    "url_png_logo": "https://cryptolotus.github.io/lotus/assets/image/logo/icons/ms-icon-310x310.png",
+    "location": "Bangkok, Thailand",
+    "social": {
+      "twitter_handle": "lotus_ada",
+      "telegram_handle": "lotus_ada_pool",
+      "facebook_handle": "",
+      "youtube_handle": "",
+      "twitch_handle": "",
+      "discord_handle": "",
+      "github_handle": ""
     },
-  "my-pool-ids": {
-    "0": ""
+    "about": {
+      "me": "I'm a softwarre engineer with more thatn 11 years of experience.",
+      "server": "I have 2 relay and 1 bp and all are up and running 24x7."
+    }
+  },
+  "adapools_ext": {
+    "prometheus": {
+      "0": {
+        "name": "Relay 1 SG",
+        "type": "relay",
+        "key": "755241072a0b413c6514f9da56e653b0"
+      },
+    }
   }
 }
