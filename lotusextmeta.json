@@ -1,0 +1,20 @@
+{
+    "info": {
+        "location": "Bangkok, Thailand",
+        "social": {
+            "twitter_handle": "lotus_ada",
+            "telegram_handle": "lotus_ada",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+            "github_handle": ""
+        },
+        "about": {
+            "server": "One BP and two relays"
+        }      
+    },
+  "my-pool-ids": {
+    "0": ""
+  }
+}
