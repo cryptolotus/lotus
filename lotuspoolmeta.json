@@ -1,1 +1,8 @@
-{"name":"Lotus Pool","ticker":"LOTUS","description":"Low fee higher ROA. 0.5% fee and 10% of the revenue is for supporting environmental causes","homepage":"https://cryptolotus.github.io/lotus/","nonce":"1611291474", "extended": "https://cryptolotus.github.io/lotus/lotusextmeta.json"}
+{
+  "name": "Lotus Pool",
+  "ticker": "LOTUS",
+  "description": "Low fee higher ROA. 0.5% fee and 10% of the revenue is for supporting environmental causes",
+  "homepage": "https://cryptolotus.github.io/lotus",
+  "nonce": "1612671052",
+  "extended": "https://cryptolotus.github.io/lotus/lotusextmeta.json"
+}
