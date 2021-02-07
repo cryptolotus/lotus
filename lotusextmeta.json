@@ -18,7 +18,6 @@
     }
   },
   "adapools_ext": {
-    "ada_pool_claim_id": "22c31c044608ced6f688e85cd153f9dc",
     "prometheus": {
       "0": {
         "name": "Relay 1 SG",
