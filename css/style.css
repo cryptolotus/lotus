@@ -156,6 +156,11 @@ body
 
 .link-so { color: #FFFFFF; }
 
+.about-me-div p
+{
+    font-size: 20px;
+}
+
 
 /* Features CSS */
 .features-div
