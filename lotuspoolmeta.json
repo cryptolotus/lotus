@@ -1,7 +1,7 @@
 {
   "name": "Lotus Pool",
   "ticker": "LOTUS",
-  "description": "Low (0.5%) fee higher ROA. I will spend some of my earnings towards the protection/plantation of tree",
+  "description": "Low (0% + 340) fee higher ROA. I will spend 10% of my earnings towards the protection/plantation of tree",
   "homepage": "https://cryptolotus.github.io/lotus",
   "nonce": "1612671052",
   "extended": "https://cryptolotus.github.io/lotus/lotusextmeta.json"
